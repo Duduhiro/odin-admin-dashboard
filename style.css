@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+aside {
+    background-color: #1992d4;
+    height: 100%;
+    width: 15%;
+    color: white;
+    padding: 30px;
+}
+
+.comp-logo {
+    gap: 15px;
+    align-items: center;
+}
+
+.tabs {
+    margin-top: 60px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tabs div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.configs {
+    margin-top: 80px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.configs div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
