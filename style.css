@@ -26,6 +26,7 @@ aside {
     padding: 30px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 0px 10px 1px rgba(194,194,194,1);
 }
 
 .comp-logo {
@@ -201,6 +202,7 @@ nav {
     padding-right: 20px;
     width: 300px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(194,194,194,1);
 }
 
 .announcement-part {
@@ -222,6 +224,7 @@ nav {
     gap: 10px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 0px 10px 1px rgba(194,194,194,1);
 }
 
 .friend {
