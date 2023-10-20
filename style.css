@@ -54,3 +54,80 @@ aside {
     gap: 20px;
     align-items: center;
 }
+
+main {
+    width: 100%;
+    background-color: #e2e8f0;
+}
+
+nav {
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px 0.5px rgba(0,0,0,0.75);
+}
+
+.upper-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.upper-nav input {
+    background-color: #e2e8f0;
+    border: none;
+    outline: none;
+    height: 36px;
+    border-radius: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+#small-pfp {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+#big-pfp {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.profile {
+    margin-top: 40px;
+}
+
+.profile .user {
+    gap: 20px;
+    align-items: center;
+    width: 70%;
+}
+
+.username {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page-buttons {
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-buttons button {
+    width: 120px;
+    height: 48px;
+    border: none;
+    outline: none;
+    background-color: #1992d4;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+}
